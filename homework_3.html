@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  function askName() {
+    let name = prompt('Здравствуйте, введите как Вас зовут');
+    return name;
+  }
+  function askAge() {
+    let age = prompt('Сколько Вам лет?');
+    return age;
+  }
+  function greet(name, age) {
+    if (age<25) {alert(`Привет, ${name}!`);}
+    else {alert(`Здравствуйте, ${name}`);}
+  }
+  greet(askName(), askAge())
+</script>
+
+</body>
+</html>
